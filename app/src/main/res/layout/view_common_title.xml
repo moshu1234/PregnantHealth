@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_title_height"
+    android:background="@color/pink">
+
+    <RelativeLayout
+        android:id="@+id/common_title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/common_title_click_bg"
+        android:padding="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/title_left_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_back"
+            />
+
+        <TextView
+            android:id="@+id/title_left_city"
+            style="@style/title_l_r"
+            android:gravity="center"
+            android:drawableRight="@drawable/product_local_icon"
+            android:text="城市"
+            android:textColor="@color/app_red_theme_color"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/common_title_center"
+        style="@style/title_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通用标题"
+        android:textColor="@color/white"
+        />
+
+    <RelativeLayout
+        android:id="@+id/common_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/common_title_click_bg"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/title_right_iv"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_launcher"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/title_right_tv"
+            style="@style/title_l_r"
+            android:text="分享"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

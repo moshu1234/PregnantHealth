@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.pregnant.health.view.SettingItemView
+        android:id="@+id/siv_blood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:key="血压"
+        app:value="*必填"
+        />
+
+    <View style="@style/style_split_line"/>
+
+    <com.pregnant.health.view.SettingItemView
+        android:id="@+id/siv_tall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:key="宫高"
+        app:value="*必填"
+        />
+
+    <View style="@style/style_split_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        >
+
+        <GridView
+            android:id="@+id/gv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            />
+
+        <View style="@style/style_split_line"/>
+
+        <ImageView
+            android:id="@+id/iv_preview"
+            android:layout_width="240dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bg_upload"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+    <View style="@style/style_split_line"/>
+
+    <TextView
+        android:id="@+id/btn_save"
+        style="@style/style_btn"
+        android:text="保存" />
+
+</LinearLayout>

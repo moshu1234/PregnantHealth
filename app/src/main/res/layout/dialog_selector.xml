@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/include_selector_title"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp">
+
+        <com.pregnant.health.view.PickerView
+            android:id="@+id/pv"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dialog_height"
+            android:layout_weight="2"
+            />
+
+        <com.pregnant.health.view.PickerView
+            android:id="@+id/pv2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dialog_height"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

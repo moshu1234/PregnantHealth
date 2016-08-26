@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#007aff</color>
+
+    <color name="def_bg">#f9f6f7</color>
+    <color name="pink">#ff8698</color>
+    <color name="gray">#e5e1e0</color>
+    <color name="gray_input">#ebebeb</color>
+    <color name="black">#000000</color>
+
+    <color name="app_backcolor">#f7f7f7</color>
+    <color name="list_gray">#86898D</color>
+    <color name="rl_back_color">#22000000</color>
+    <color name="app_red_theme_color">#dc3f3f</color>
+
+
+    <!-- mupdf -->
+    <color name="actionbar_background">#EE2655</color>
+    <color name="actionbar_background_dark">#701129</color>
+    <color name="actionbar_background_semitransp">#C0EE2655</color>
+    <color name="actionbar_tint">#FFD0E5</color>
+    <color name="text_normal">#CCCCCC</color>
+
+</resources>

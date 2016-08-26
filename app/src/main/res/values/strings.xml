@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">孕健康</string>
+
+    <string name="title_routine_one">主诉与病症</string>
+    <string name="title_routine_two">既往及现病史</string>
+    <string name="title_routine_three">实验室检测</string>
+    <string name="title_routine_four">饮食习惯</string>
+    <string name="title_routine_five">生活习惯</string>
+    <string name="title_register">个人基本信息</string>
+
+    <string name="title_sport_one">睡眠时间调查</string>
+    <string name="title_sport_two">职业调查</string>
+    <string name="title_sport_three">运动调查</string>
+
+    <string name="title_routine_survey">常规调查</string>
+    <string name="title_meal_survey">膳食调查</string>
+    <string name="title_sport_survey">运动调查</string>
+    <string name="title_personal_info">个人信息</string>
+    <string name="title_analyze_results">分析结果</string>
+
+    <string name="title_login">用户登陆</string>
+    <string name="title_category_list">膳食选择</string>
+
+    <string name="title_meal_record">膳食记录</string>
+    <string name="title_meal_detail">膳食详情</string>
+    <string name="title_occupation_list">职业选择</string>
+    <string name="title_system_analysis">系统分析</string>
+    <string name="title_guidelines">指导方案</string>
+
+    <string name="tip_register_not_full">信息未填写完成,请填写后重试</string>
+    <string name="tip_required">*必填</string>
+    <string name="tip_not_filled">未填写</string>
+    <string name="tip_save_success">保存成功</string>
+    <string name="name_bc">B超</string>
+    <string name="name_xcg">血常规</string>
+    <string name="name_ncg">尿常规</string>
+    <string name="name_breakfast">早餐</string>
+    <string name="name_launch">午餐</string>
+    <string name="name_dinner">晚餐</string>
+    <string name="name_snack">加餐</string>
+    <string name="tip_input_phone">请输入手机号</string>
+    <string name="tip_right_phone">请输入正确的手机号</string>
+    <string name="tip_input_email">请输入邮箱</string>
+    <string name="tip_right_email">请输入正确的邮箱</string>
+
+
+
+    <string name="file_log">文件列表</string>
+    <string name="no_media_warning">Storage Media not present</string>
+    <string name="no_media_hint">Sharing the storage media with a PC can make it inaccessible</string>
+    <string name="open_failed">Unable to open document</string>
+</resources>

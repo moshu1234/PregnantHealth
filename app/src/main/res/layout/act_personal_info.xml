@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.pregnant.health.view.SettingItemView
+                android:id="@+id/siv_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:key="手机号码"
+                app:showrightimage="false"
+                app:value="" />
+
+            <View style="@style/style_split_line" />
+
+            <com.pregnant.health.view.SettingItemView
+                android:id="@+id/siv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:key="姓名"
+                app:showrightimage="false"
+                app:value="" />
+
+            <View style="@style/style_split_line" />
+
+            <com.pregnant.health.view.SettingItemView
+                android:id="@+id/siv_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:key="出生年月"
+                app:value="" />
+
+            <View style="@style/style_split_line" />
+
+            <com.pregnant.health.view.SettingItemView
+                android:id="@+id/siv_tall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:key="身高"
+                app:value="" />
+
+            <View style="@style/style_split_line" />
+
+            <com.pregnant.health.view.SettingItemView
+                android:id="@+id/siv_last_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:key="末次月经"
+                app:value="" />
+
+            <View style="@style/style_split_line" />
+
+            <com.pregnant.health.view.SettingItemView
+                android:id="@+id/siv_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:key="孕前体重"
+                app:value="" />
+
+            <View style="@style/style_split_line" />
+
+            <com.pregnant.health.view.SettingItemView
+                android:id="@+id/siv_blood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:key="血型"
+                app:value="未填写" />
+
+            <View style="@style/style_split_line" />
+
+            <com.pregnant.health.view.SettingItemView
+                android:id="@+id/siv_nation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:key="民族"
+                app:value="未填写" />
+
+            <View style="@style/style_split_line" />
+
+            <com.pregnant.health.view.SettingItemView
+                android:id="@+id/siv_occupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:key="职业"
+                app:value="未填写" />
+
+            <View style="@style/style_split_line" />
+
+            <com.pregnant.health.view.SettingItemView
+                android:id="@+id/siv_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:key="E-mail"
+                app:value="未填写" />
+
+            <View style="@style/style_split_line" />
+
+            <com.pregnant.health.view.SettingItemView
+                android:id="@+id/siv_education"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:key="文化程度"
+                app:value="未填写" />
+
+            <View style="@style/style_split_line" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

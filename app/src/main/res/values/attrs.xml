@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ImageWithText的属性 -->
+    <declare-styleable name="img_with_txt_style">
+        <attr name="imgSize" format="dimension"/>
+        <attr name="txtSize" format="dimension"/>
+        <attr name="src" format="reference"/>
+        <attr name="txt" format="string"/>
+    </declare-styleable>
+
+    <!-- MyRadioGroup的属性 -->
+    <declare-styleable name="MyRadioGroup">
+        <attr name="mytitle" format="string"/>
+    </declare-styleable>
+
+    <!-- SettingItem的属性 -->
+    <declare-styleable name="setting_item_style">
+        <attr name="key" format="string"></attr>
+        <attr name="value" format="string"></attr>
+        <attr name="leftimage" format="reference"></attr>
+        <attr name="showvalue" format="boolean"></attr>
+        <attr name="showleftimage" format="boolean"></attr>
+        <attr name="showrightimage" format="boolean"></attr>
+    </declare-styleable>
+
+
+</resources>

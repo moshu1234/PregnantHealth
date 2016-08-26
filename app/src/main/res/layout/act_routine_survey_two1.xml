@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/def_bg"
+    android:orientation="vertical">
+
+    <com.pregnant.health.view.MyRadioGroup
+        android:id="@+id/rgOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mytitle="高血压"
+        />
+
+    <View style="@style/style_split_line"/>
+
+    <com.pregnant.health.view.MyRadioGroup
+        android:id="@+id/rgTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mytitle="低血压"
+        />
+
+    <View style="@style/style_split_line"/>
+
+    <com.pregnant.health.view.MyRadioGroup
+        android:id="@+id/rgThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mytitle="高胆固醇血症"
+        />
+
+    <View style="@style/style_split_line"/>
+    <com.pregnant.health.view.MyRadioGroup
+        android:id="@+id/rgFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mytitle="高血脂"
+        />
+
+    <View style="@style/style_split_line"/>
+    <com.pregnant.health.view.MyRadioGroup
+        android:id="@+id/rgFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mytitle="心血管疾病"
+        />
+
+    <View style="@style/style_split_line"/>
+    <com.pregnant.health.view.MyRadioGroup
+        android:id="@+id/rgSix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mytitle="糖尿病"
+        />
+
+    <View style="@style/style_split_line"/>
+    <com.pregnant.health.view.MyRadioGroup
+        android:id="@+id/rgSeven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mytitle="糖耐受下降"
+        />
+
+    <View style="@style/style_split_line"/>
+    <com.pregnant.health.view.MyRadioGroup
+        android:id="@+id/rgEight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mytitle="皮炎"
+        />
+
+    <View style="@style/style_split_line"/>
+    <com.pregnant.health.view.MyRadioGroup
+        android:id="@+id/rgTwelve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mytitle="脂溢性皮炎"
+        />
+
+    <View style="@style/style_split_line"/>
+    <com.pregnant.health.view.MyRadioGroup
+        android:id="@+id/rgTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mytitle="脂溢性皮炎"
+        />
+
+    <View style="@style/style_split_line"/>
+    <com.pregnant.health.view.MyRadioGroup
+        android:id="@+id/rgEleven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mytitle="脂溢性皮炎"
+        />
+
+    <View style="@style/style_split_line"/>
+    <com.pregnant.health.view.MyRadioGroup
+        android:id="@+id/rgNine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mytitle="脂溢性皮炎"
+        />
+
+    <View style="@style/style_split_line"/>
+
+    <TextView
+        android:id="@+id/btn_save"
+        style="@style/style_btn"
+        android:text="保存" />
+
+</LinearLayout>

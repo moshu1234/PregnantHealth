@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.pregnant.health.view.SettingItemView
+        android:id="@+id/siv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:key="日期"
+        app:value="*必填"
+        />
+
+    <View style="@style/style_split_line"/>
+
+    <com.pregnant.health.view.SettingItemView
+        android:id="@+id/siv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:key="餐食"
+        app:value="*必填"
+        />
+
+    <View style="@style/style_split_line"/>
+
+    <com.pregnant.health.view.SettingItemView
+        android:id="@+id/siv_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:key="食物"
+        app:value="*必填"
+        />
+
+    <View style="@style/style_split_line"/>
+
+    <com.pregnant.health.view.SettingItemView
+        android:id="@+id/siv_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:key="重量"
+        app:value="*必填"
+        />
+
+    <View style="@style/style_split_line"/>
+
+    <TextView
+        android:id="@+id/btn_meal_detail_confirm"
+        style="@style/style_btn"
+        android:text="完成修改"
+        />
+
+</LinearLayout>

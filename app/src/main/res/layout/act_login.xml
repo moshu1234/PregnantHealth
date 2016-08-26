@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/def_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="45dp"
+        android:src="@drawable/login_logo" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="请输入您的手机号码"
+        android:padding="12dp"
+        android:phoneNumber="true"
+        android:textColorHint="@color/gray" />
+
+    <TextView
+        android:id="@+id/btn_login"
+        style="@style/style_btn"
+        android:text="登陆" />
+
+    <TextView
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_pink"
+        android:paddingBottom="6dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingTop="6dp"
+        android:layout_marginTop="150dp"
+        android:text="注册"
+        android:textColor="@color/pink" />
+
+</LinearLayout>
